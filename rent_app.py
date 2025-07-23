@@ -5,8 +5,8 @@ import numpy as np
 import joblib
 
 # Load the trained model and sample input
-model = joblib.load('ucc_hostel_rent_predictor.pkl')
-sample_input = joblib.load('hostel_sample_input.pkl')
+model = joblib.load('Model/ucc_hostel_rent_predictor.pkl')
+sample_input = joblib.load('Model/hostel_sample_input.pkl')
 
 # Streamlit app title
 #st.title("UCC Hostel Rent Predictor APP")
