@@ -4,6 +4,8 @@ import pandas as pd
 import numpy as np
 import joblib
 
+print("joblib module test:", __import__("joblib"))
+
 # Load the trained model and sample input
 model = joblib.load('Model/ucc_hostel_rent_predictor.pkl')
 sample_input = joblib.load('Model/hostel_sample_input.pkl')
